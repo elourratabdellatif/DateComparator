@@ -26,3 +26,29 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+***
+***
+
+### Todos
+
+/* Vous devez avoir nodejs installé,
+Vérifier le Path dans les variables d’environnements pour la déclaration du chemin de nodejs*/
+
+***Angular CLI***
+npm install -g @angular/cli
+ng new myApplicationDate
+cd myApplicationDate
+ng serve            /*ou*/ //npm start
+
+cd myApplicationDate
+
+*****************************************
+ Vous pouvez utiliser comme IDE, Visual Studio Code car c'est gratuit et fonctionne simplement sur les différents OS.
+*****************************************
+
+//générer les coponents:
+ng g componenet comparDates
+
+/* on peut accèder après à notre application via 'http://localhost:4200/' après lancement du serveur basé sur nodejs avec 'ng serve', puis l'application se recharge automatiquement à chaque odification et enregistrement */
+
